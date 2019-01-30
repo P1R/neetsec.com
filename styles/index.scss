@@ -1,0 +1,104 @@
+h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Proxima nova regular';
+    vertical-align: baseline;
+}
+nav{
+    box-shadow: none;
+}
+.navlink{
+    font-family: 'proxima_nova_altblack';
+    a{
+        font-family: 'proxima_nova_altblack';
+    }
+    li:last-child{
+            background:#e0f7fa;
+            border-radius: 20px;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px; 
+            height: 40px;
+            display: block;
+
+        a{
+            height: 40px;
+
+            color: black!important;   
+        }
+}}
+.lastchild-nav{
+    height: 64px;
+}
+
+.navbar-fixed{
+    height: 0px !important;
+}
+
+#mynav{
+    background:  transparent;
+    font-family: 'proxima_nova_altblack';
+    padding: 90px 0px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    
+}
+.sidenav-overlay {
+    z-index: 1;
+    }
+
+.transparent-container{
+    background:  transparent;
+    font-family: 'proxima_nova_altblack';
+}
+
+.colored-container{
+    background:  white !important;   
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+    .nav-wrapper{
+        ul{
+            a{
+            color:$primary-color !important;
+        }}
+    }
+}
+
+
+.logo-text{
+        color: $primary-color;
+        font-size: 20px;
+        margin-left: 80px;
+}
+
+.banner-static {
+    background: #fff url("../static/images/slider-bg.jpg") no-repeat ;
+    padding-top: 190px;
+    overflow: hidden;
+    background-position: top right;
+    background-size: 87%;
+    padding-bottom: 90px;
+    margin-top: -64px;
+    height: 100vh;
+}
+
+.brand-logo{
+    img{
+        height: 60px;
+    }
+}
+
+.title{
+        font-family: 'proxima_nova_altblack';
+        font-size: 57px;
+        line-height: 55px;
+        text-transform: uppercase;
+        color: rgb(60, 57, 102);
+        .title{
+            margin-left: 0;
+        }
+}
+
+.sub-title{
+    font-size: 23px !important;
+    color: #999999 !important;
+}
