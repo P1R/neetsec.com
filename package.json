@@ -4,19 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "express": "^4.16.4",
     "materialize-css": "^1.0.0-rc.2",
     "next": "^7.0.2",
+    "next-i18next": "^0.24.0",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.7.0"
   },
   "devDependencies": {

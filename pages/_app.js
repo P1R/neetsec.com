@@ -1,10 +1,11 @@
 import React from 'react'
 import App, { Container } from 'next/app'
+import { appWithTranslation } from '../i18n'
 import '../styles/main.scss'
 
 
 
-export default class MyApp extends App {
+class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {}
 
@@ -25,3 +26,5 @@ export default class MyApp extends App {
     )
   }
 }
+
+export default appWithTranslation(MyApp)
