@@ -78,7 +78,6 @@ nav{
     background-size: 87%;
     padding-bottom: 90px;
     margin-top: -64px;
-    height: 100vh;
 }
 .banner-static.pages {
     background: #fff url("../static/images/bg.png") no-repeat ;
@@ -86,10 +85,8 @@ nav{
     overflow: hidden;
     background-position-y: 1000px;
     background-position: top right;
-    background-size: 65%;
-    padding-bottom: 80px;
-    margin-top: -60px;
-    height: 100vh;
+    background-size: 50%;
+    margin-bottom: -80px;
 }
 .banner-static.team {
     background: #fff url("../static/images/bg.png") no-repeat ;
@@ -126,7 +123,7 @@ nav{
 }
 
 .sub-title{
-    font-size: 23px !important;
+    font-size: 1.5vw !important;
     color: #999999 !important;
     padding: 30px 50px 0px 0px;
 }
@@ -145,7 +142,7 @@ nav{
 .card-title{
 color: #1a237e !important;
 font-family: 'proxima_nova_altblack';
-font-size: 1.2rem!important;
+font-size: 2vw!important;
 text-align: center;
 }
 

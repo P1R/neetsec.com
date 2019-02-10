@@ -22,7 +22,7 @@ class Homepage extends React.Component {
                             <div className="col s6">
                                 <h1 className="title">{this.props.t('Talk is cheap')}</h1>
                                 <span className="title container">Crypto’s not.</span>
-                                <p className="sub-title">In NeetSec we are aware of the vulnerability of information on the Internet, so we always seek to be on par with security systems to generate trust and ensure communication development that does not allow suspicious access or vulnerabilities in the communication chain between a user and other.</p>
+                                <p className="sub-title">{this.props.t('index-text-1')}</p>
                             </div>
                             <div className="col s6">
                                 <img src="../static/images/logo_nsi.png"></img>

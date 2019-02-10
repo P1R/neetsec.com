@@ -18,7 +18,7 @@ class Team extends React.Component {
         <Navbar />
         <div className="banner-static team valign-wrapper">
           <div className="container">
-            <span className="title ">Meet the team</span>
+            <span className="title ">{this.props.t('title')}</span>
           </div>
         </div>
 
@@ -30,13 +30,13 @@ class Team extends React.Component {
                 <span class="card-title">David Pérez Negrón A.K.A p1r0</span>
               </div>
               <div class=" center">
-                <p><a href="#">CTO | Co-fundador</a></p>
+                <p><a href="#">{this.props.t('pyro-employee')}</a></p>
                 <a className="linkedin" href="https://www.linkedin.com/in/david-perez-b79b29116" target="_blank"><img src="/static/images/linkedin.png" alt="LinkedIn"></img></a>
                 <a href="https://gitlab.com/p1r0" target="_blank"><img src="/static/images/gitlab.png" alt="GitLab"></img></a>
                 <a href="mailto:david@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
               </div>
               <div class="card-content">
-                <p>Ingeniero en comunicaciones y electrónica, trabaja en soluciones de ciberseguridad y criptomoneda. Actualmente centrado en diseñar arquitecturas con perspectiva de ciberseguridad y desarrollo de contratos inteligentes.</p>
+                <p>{this.props.t('pyro-description')}</p>
               </div>
 
             </div>
@@ -103,7 +103,7 @@ class Team extends React.Component {
                 <span class="card-title">Osmar Pérez Bautista</span>
               </div>
               <div class=" center">
-                <p><a href="#">CTO | Co-fundador</a></p>
+                <p><a href="#">Web Developer</a></p>
                 <a href="https://gitlab.com/osmarpb.97" target="_blank"><img src="/static/images/gitlab.png" alt="GitLab"></img></a>
                 <a href="mailto:osmar@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
               </div>

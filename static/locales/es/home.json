@@ -1,5 +1,6 @@
 {
-    "change-locale": "Cambiar idioma",
-    "Talk is cheap": "Hablar es gratis.",
-    "Cryptos not": "Las cripto no."
-} 
+    "home-text-1": "En NeetSec estamos conscientes de la vulnerabilidad de tu información en internet, además de los peligros de la centralización y el control de la misma. Sabemos de las dificultades que puedes tener al utilizar servicios financieros que no inspiran la confianza que requieres, con tecnologías propietarias que nadie sabe cómo funcionan o a quién se le da acceso para violar tus derechos.",
+    "home-text-2": "Buscamos siempre estar un paso adelante en sistemas de seguridad y criptografía avanzada para darte la confianza y proveer soluciones que te protegen ante este tipo de peligros cada vez más latentes en el mundo.",
+    "home-text-3": "Creemos en un mundo libre y descentralizado, en los derechos de internet y en la revolución que representan tecnologías como la cadena de bloques.",
+    "home-text-4": "¡Bienvenido a Neetsec, más allá del futuro sólo hay mentes libres!"
+}
