@@ -19,13 +19,26 @@ class Homepage extends React.Component {
                 <div className="banner-static valign-wrapper">
                     <div className="container">
                         <div className="row">
-                            <div className="col s6">
+                            <div className="col s12 m6">
                                 <h1 className="title">{this.props.t('Talk is cheap')}</h1>
                                 <span className="title container">Crypto’s not.</span>
-                                <p className="sub-title">{this.props.t('index-text-1')}</p>
+                                <p className="sub-title">{this.props.t('home-text-1')}</p>
+                            </div>
+                            <div className="col s12 m6">
+                                <img src="../static/images/logo_nsi.png" className="image" ></img>
+                            </div>
+                        </div>
+                        <div className="row" >
+                            <div className="col s6">
+                                <p className="sub-title ">{this.props.t('home-text-2')}</p>
                             </div>
                             <div className="col s6">
-                                <img src="../static/images/logo_nsi.png"></img>
+                                <p className="sub-title">{this.props.t('home-text-3')}</p>
+                            </div>
+                        </div>
+                        <div className="row center-align">
+                            <div className="col s12">
+                                <p className="sub-title">{this.props.t('home-text-4')}</p>
                             </div>
                         </div>
                     </div>

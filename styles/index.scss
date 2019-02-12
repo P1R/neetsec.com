@@ -120,18 +120,38 @@ nav{
         .title{
             margin-left: 0;
         }
+        @media (max-width: 600px) {
+            font-size:44px;
+        }
+}
+
+.titles{
+    font-family: 'proxima_nova_altblack';
+    font-size: 57px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: rgb(60, 57, 102);
+    .title{
+        margin-left: 0;
+    }
+    @media (max-width: 600px) {
+        font-size:35px;
+    }
 }
 
 .sub-title{
-    font-size: 1.5vw !important;
+    font-size: 30px !important;
     color: #999999 !important;
-    padding: 30px 50px 0px 0px;
+    
 }
 .margin-top{
     margin-top: 100px;
 }
 .padding{
     padding: 100px 200px 0px 0px;
+    @media (max-width: 600px) {
+        padding: 0px 0px 60px 0px!important;
+    }
 }
 .card-medium{
     img{
@@ -153,3 +173,9 @@ text-align: center;
     height: 20px;
 }
 
+.image{
+    padding: 90px 90px 90px 90px!important;
+    @media (max-width: 600px) {
+        padding: 0px 0px 0px 0px!important;
+    }
+}

@@ -16,23 +16,53 @@ class Products extends React.Component {
     return (
       <div>
         <Navbar />
-        <div className="banner-static pages valign-wrapper">
+        <div className="banner-static team valign-wrapper">
+          <div className="container">
+          <br/><br/>
+            <span className="title ">{this.props.t('services-title')}</span>
+          </div>
+        </div>
           <div className="container">
             <div className="row">
               <div className="col s12">
-                <span className="title container">Products and Services</span>
-                <ul class="lstps">
-                  <li>ICO (marketing, UX-UI, ERC20, HOLO, secure Architectures)</li>
-                  <li>Blockchain</li>
-                  <li>Secure phones (linked with nethunters team)</li>
-                  <li>Cybersecurity consultant (linked with nethunters team)</li>
-                  <li>Crypto Mining</li>
-                  <li>Others</li></ul>
+                <ul className="lstps">
+                  <li>{this.props.t('products-title-1')}</li>
+                  <p>{this.props.t('products-text-1')}</p>
+                  <p>{this.props.t('products-sentence-1')}</p>
+                  <li>{this.props.t('products-title-2')}</li>
+                  <p>{this.props.t('products-text-2')}</p>
+                  <li>{this.props.t('products-title-3')}</li>
+                  <p>{this.props.t('products-text-3')}</p>
+                  <li>{this.props.t('products-title-4')}</li>
+                  <p>{this.props.t('products-text-4')}</p>
+                  <p>{this.props.t('products-sentence-2')}</p>
+                  <li>{this.props.t('products-title-5')}</li>
+                  <p>{this.props.t('products-text-5')}</p>
+                  <li>{this.props.t('products-title-6')}</li>
+                  <p>{this.props.t('products-text-6')}</p>
+                  <p>{this.props.t('products-sentence-3')}</p>
+                  <li>{this.props.t('products-title-7')}</li>
+                  <p>{this.props.t('products-text-7')}</p>
+                  <p>{this.props.t('products-text-8')}</p>
+                  <p>{this.props.t('products-sentence-4')}</p>
+                  <li>{this.props.t('products-title-8')}</li>
+                  <p>{this.props.t('products-text-9')}</p>
+                  <li>{this.props.t('products-title-9')}</li>
+                  <p>{this.props.t('products-text-10')}</p>
+                  <li>{this.props.t('products-title-10')}</li>
+                  <p>{this.props.t('products-text-11')}</p>
+                  <p>{this.props.t('products-sentence-5')}</p>
+                  <p>{this.props.t('products-sentence-5-autor')}</p>
+                  <li>{this.props.t('products-title-11')}</li>
+                  <p>{this.props.t('products-text-12')}</p>
+                  <p>{this.props.t('products-text-13')}</p>
+                  <li>{this.props.t('products-title-12')}</li>
+                  <p>{this.props.t('products-text-14')}</p>
+                  </ul>
               </div>
-
             </div>
           </div>
-        </div>
+        
         <div className="row">
           <div className="col s12 m6">
 

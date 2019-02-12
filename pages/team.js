@@ -24,18 +24,18 @@ class Team extends React.Component {
 
         <div className="row container">
           <div className="col s12 m4">
-            <div class="card">
-              <div class="card-medium center">
+            <div className="card">
+              <div className="card-medium center">
                 <img src="/static/images/p1r0.png"></img>
-                <span class="card-title">David Pérez Negrón A.K.A p1r0</span>
+                <span className="card-title">David Pérez Negrón A.K.A p1r0</span>
               </div>
-              <div class=" center">
+              <div className=" center">
                 <p><a href="#">{this.props.t('pyro-employee')}</a></p>
                 <a className="linkedin" href="https://www.linkedin.com/in/david-perez-b79b29116" target="_blank"><img src="/static/images/linkedin.png" alt="LinkedIn"></img></a>
                 <a href="https://gitlab.com/p1r0" target="_blank"><img src="/static/images/gitlab.png" alt="GitLab"></img></a>
                 <a href="mailto:david@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
               </div>
-              <div class="card-content">
+              <div className="card-content">
                 <p>{this.props.t('pyro-description')}</p>
               </div>
 
@@ -49,13 +49,13 @@ class Team extends React.Component {
                 <span class="card-title">Alvaro Hernández</span>
               </div>
               <div class=" center">
-                <p><a href="#">Desarrollador Web "Full Stack" | Documentador</a></p>
+                <p><a href="#">{this.props.t('alvaro-employee')}</a></p>
                 <a className="linkedin" href="https://www.linkedin.com/in/alhega" target="_blank"><img src="/static/images/linkedin.png" alt="LinkedIn"></img></a>
                 <a href="https://gitlab.com/ahgala" target="_blank"><img src="/static/images/gitlab.png" alt="GitLab"></img></a>
                 <a href="mailto:alvaro@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
               </div>
               <div class="card-content">
-                <p>Maestro en ingeniería en sistemas de información.</p>
+                <p>{this.props.t('alvaro-description')}</p>
               </div>
             </div>
           </div>
@@ -67,12 +67,12 @@ class Team extends React.Component {
                 <span class="card-title">Alexandre Ederer</span>
               </div>
               <div class=" center">
-                <p><a href="#">Scrum master | White paper editor</a></p>
+                <p><a href="#">{this.props.t('alex-employee')}</a></p>
                 <a className="linkedin" href="https://www.linkedin.com/in/alexandre-ederer/" target="_blank"><img src="/static/images/linkedin.png" alt="LinkedIn"></img></a>
                 <a href="mailto:alex@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
               </div>
               <div class="card-content">
-                <p>Scrum master (Agile), Marketing Content Manager for Verge Currency, works as a project manager and moonlights as an editor.</p>
+                <p>{this.props.t('alex-description')}</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ class Team extends React.Component {
                 <span class="card-title">Fawkes</span>
               </div>
               <div class=" center">
-                <p><a href="#">Co-fundador</a></p>
+                <p><a href="#">{this.props.t('fawkes-employee')}</a></p>
               </div>
               <div class="card-content">
               </div>
@@ -103,15 +103,33 @@ class Team extends React.Component {
                 <span class="card-title">Osmar Pérez Bautista</span>
               </div>
               <div class=" center">
-                <p><a href="#">Web Developer</a></p>
+                <p><a href="#">{this.props.t('let-employee')}</a></p>
                 <a href="https://gitlab.com/osmarpb.97" target="_blank"><img src="/static/images/gitlab.png" alt="GitLab"></img></a>
                 <a href="mailto:osmar@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
               </div>
               <div class="card-content">
-                <p>Diseñador digital, centrado en el diseño UI/UX, Diseño Web e Ilustración con algunos conocimientos de back-end.</p>
+                <p>{this.props.t('let-description')}</p>
               </div>
             </div>
           </div>
+
+          <div className="col s12 m4">
+            <div class="card">
+              <div class="card-medium center">
+                <img src="/static/images/jose.jpg"></img>
+                <span class="card-title">José Armando Rivera Ramírez</span>
+              </div>
+              <div class=" center">
+                <p><a href="#">{this.props.t('jose-employee')}</a></p>
+                <a href="https://gitlab.com/josearmando1470" target="_blank"><img src="/static/images/gitlab.png" alt="GitLab"></img></a>
+                <a href="mailto:jose@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
+              </div>
+              <div class="card-content">
+                <p>{this.props.t('jose-description')}</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         <Footer />

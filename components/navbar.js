@@ -28,7 +28,7 @@ class Navbar extends Component {
   handleScroll() {
     var myNav = document.getElementById('mynav');
     myNav.scrollTop;
-    if (document.scrollingElement.scrollTop > 50) {
+    if (document.scrollingElement.scrollTop > 40) {
       myNav.classList.add("colored-container");
       myNav.classList.remove("transparent-container");
       myNav.style.padding = "65px 10px";
@@ -49,12 +49,12 @@ class Navbar extends Component {
         <nav id="mynav" className="">
           <div className="nav-wrapper container">
             <a href="#!" className="brand-logo"><img src="../static/images/logo_nsi.png"></img></a>
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons black-text">menu</i></a>
             <ul className="left logo-text hide-on-med-and-down">NeetSec International</ul>
             <ul className="navlink right hide-on-med-and-down">
               <li><Link href="/"><a>{this.props.t('Home')}</a></Link></li>
               <li><Link href="/about"><a>{this.props.t('About')}</a></Link></li>
-              <li><Link href="/products"><a>{this.props.t('Products and Services')}</a></Link></li>
+              <li><Link href="/products"><a>{this.props.t('ProductsAndServices')}</a></Link></li>
               <li><Link href="/"><a 
                                     onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en')}>
                                     {this.props.t('EN')}</a></Link></li>

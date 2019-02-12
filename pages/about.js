@@ -18,21 +18,23 @@ class About extends React.Component {
         <Navbar />
         <div className="banner-static team valign-wrapper">
           <div className="container">
-            <span className="title ">{this.props.t('title')}</span>
+          <br/><br/>
+            <span className="titles ">{this.props.t('about-title')}</span>
           </div>
         </div>
         <div className="container">
           <div className="row">
             <div className="col s12">
-              <span className="title container">About NeetSec International</span>
               <p className="sub-title padding">{this.props.t('about-text-1')}</p>
+            </div>
+            <div className="col s12">
               <p className="sub-title padding">{this.props.t('about-text-2')}</p>
+            </div>
+            <div className="col s12">
               <p className="sub-title padding">{this.props.t('about-text-3')}</p>
             </div>
           </div>
         </div>
-
-
         <Footer />
       </div>
     )
