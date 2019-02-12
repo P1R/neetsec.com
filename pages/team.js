@@ -116,6 +116,22 @@ class Team extends React.Component {
           <div className="col s12 m4">
             <div class="card">
               <div class="card-medium center">
+                <img src="/static/images/dx.jpeg"></img>
+                <span class="card-title">Luis Alberto Saavedra Nieto</span>
+              </div>
+              <div class=" center">
+                <p><a href="#">{this.props.t('jose-employee')}</a></p>
+                <a href="mailto:alberto@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
+              </div>
+              <div class="card-content">
+                <p>Redactor with social media habilities and advertising campaigns. Focused on enterprise writing, documents redaction and edition</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col s12 m4">
+            <div class="card">
+              <div class="card-medium center">
                 <img src="/static/images/jose.jpg"></img>
                 <span class="card-title">José Armando Rivera Ramírez</span>
               </div>
@@ -129,6 +145,8 @@ class Team extends React.Component {
               </div>
             </div>
           </div>
+
+          
 
         </div>
 
