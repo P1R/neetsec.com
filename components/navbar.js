@@ -31,12 +31,12 @@ class Navbar extends Component {
     if (document.scrollingElement.scrollTop > 40) {
       myNav.classList.add("colored-container");
       myNav.classList.remove("transparent-container");
-      myNav.style.padding = "65px 10px";
+      myNav.style.padding = "11px 10px";
     }
     else {
       myNav.classList.add("transparent-container");
       myNav.classList.remove("colored-container");
-      myNav.style.padding = "90px 10px";
+      myNav.style.padding = "60px 10px";
     }
   };
 
@@ -48,9 +48,9 @@ class Navbar extends Component {
         <Header />
         <nav id="mynav" className="">
           <div className="nav-wrapper container">
-            <a href="#!" className="brand-logo"><img src="../static/images/logo_nsi.png"></img></a>
+            <a href="#!" className="brand-logo"><img src="../static/images/1400/logo(1400)-.png"></img></a>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons black-text">menu</i></a>
-            <ul className="left logo-text hide-on-med-and-down">NeetSec International</ul>
+            <ul className="left logo-text hide-on-med-and-down"></ul>
             <ul className="navlink right hide-on-med-and-down">
               <li><Link href="/"><a>{this.props.t('Home')}</a></Link></li>
               <li><Link href="/about"><a>{this.props.t('About')}</a></Link></li>

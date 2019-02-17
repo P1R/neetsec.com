@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, l
 nav{
     box-shadow: none;
 }
+.margin-fix{
+    margin-top: 100px;
+}
 .navlink{
     font-family: 'proxima_nova_altblack';
     a{
@@ -24,7 +27,7 @@ nav{
 
         a{
             height: 40px;
-
+                
             color: black!important;   
         }
 }}
@@ -32,14 +35,15 @@ nav{
     height: 64px;
 }
 
-.navbar-fixed{
-    height: 0px !important;
+nav ul a {
+    font-size: 1.2rem;
+    color: $secondary-color;
 }
 
 #mynav{
     background:  transparent;
     font-family: 'proxima_nova_altblack';
-    padding: 90px 0px; /* Large padding which will shrink on scroll (using JS) */
+    padding: 60px 0px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     
 }
@@ -53,7 +57,7 @@ nav{
 }
 
 .colored-container{
-    background:  white !important;   
+    background:  #fff!important;   
     box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
     .nav-wrapper{
         ul{
@@ -61,6 +65,9 @@ nav{
             color:$primary-color !important;
         }}
     }
+}
+*, *:before, *:after {
+     box-sizing: content-box;
 }
 
 
@@ -107,7 +114,8 @@ nav{
 }
 .brand-logo{
     img{
-        height: 60px;
+        margin-top: -15px;
+        height: 100px;
     }
 }
 

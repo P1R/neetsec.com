@@ -1,4 +1,3 @@
-
 import PropTypes from 'prop-types'
 
 import { i18n, withNamespaces } from '../i18n'
@@ -15,18 +14,24 @@ class Products extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
-        <div className="banner-static team valign-wrapper">
-          <div className="container">
-          <br/><br/>
-            <span className="title ">{this.props.t('services-title')}</span>
-          </div>
-        </div>
-          <div className="container">
+        <Navbar /> 
+          <div className="container margin-fix">
+            <div className="row">
+              <div className="col s12 m6">
+                <span className="title ">{this.props.t('services-title')}</span>
+              </div>
+              <div className="col s12 m6">
+                //Imagen 
+              </div>
+            </div>
             <div className="row">
               <div className="col s12">
-                <ul className="lstps">
-                  <li>{this.props.t('products-title-1')}</li>
+              <li>{this.props.t('products-title-1')}</li>
+              </div>
+            </div>
+            
+                <ul className="lstps">                 
+                  
                   <p>{this.props.t('products-text-1')}</p>
                   <p>{this.props.t('products-sentence-1')}</p>
                   <li>{this.props.t('products-title-2')}</li>
@@ -60,15 +65,6 @@ class Products extends React.Component {
                   <p>{this.props.t('products-text-14')}</p>
                   </ul>
               </div>
-            </div>
-          </div>
-        
-        <div className="row">
-          <div className="col s12 m6">
-
-          </div>
-        </div>
-
         <Footer />
       </div>
     )
