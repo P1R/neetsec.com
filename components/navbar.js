@@ -48,7 +48,7 @@ class Navbar extends Component {
         <Header />
         <nav id="mynav" className="">
           <div className="nav-wrapper container">
-            <a href="#!" className="brand-logo"><img src="../static/images/1400/logo(1400)-.png"></img></a>
+            <a href="#!" className="brand-logo"><img  src="../static/images/1400/logo(1400)-.png"></img></a>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons black-text">menu</i></a>
             <ul className="left logo-text hide-on-med-and-down"></ul>
             <ul className="navlink right hide-on-med-and-down">

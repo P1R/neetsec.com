@@ -10,7 +10,7 @@ nav{
     box-shadow: none;
 }
 .margin-fix{
-    margin-top: 100px;
+    margin-top: 110px;
 }
 .navlink{
     font-family: 'proxima_nova_altblack';
@@ -181,9 +181,108 @@ text-align: center;
     height: 20px;
 }
 
-.image{
-    padding: 90px 90px 90px 90px!important;
-    @media (max-width: 600px) {
-        padding: 0px 0px 0px 0px!important;
-    }
+.products-img{
+    max-width: 100%;
+    height: auto;
+}
+.bg-img{
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    z-index: -10;
+    left: -10%;
+    padding-top: 10%;
+}
+.bg-img1{
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    z-index: -10;
+    margin-left: 60%;
+    padding-top: 35%;
+}
+
+.products-title{
+    font-family: 'Marsek Demi';
+    color:#3dffef;   
+    padding-top: 90px;
+    font-size: 22px;
+    padding-left:10px;
+}
+.line-bg{
+    width:50%;
+}
+.bar-bg{
+    padding-top:90%;
+}
+
+.products-text-title{
+    font-family: 'Marsek Demi';
+    color:#ffffff;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+
+.products-line{
+    stroke:rgb(255, 255, 255);
+    stroke-width:2;
+}
+
+.footer-text{
+    font-family: 'Proxima nova regular';
+    padding-left: 29px;
+}
+
+.products-section-2{
+    padding-bottom: 100px;
+}
+
+.products-title-line{
+    background-color: rgba(3, 24, 96,0.7);
+    border-radius: 20px;
+}
+
+.products-text{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.products-text-sentences{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+}
+
+.products-text-sentences-autor{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: oblique;
+}
+
+.linear-grad-1{
+    stop-color:rgb(70,80,225);
+    stop-opacity:1;
+}
+.linear-grad-2{
+    stop-color:rgb(50,210,210);
+    stop-opacity:1;
+}
+
+.products-line-2{
+    stroke:url(#grad1);
+    stroke-width:2;
 }
