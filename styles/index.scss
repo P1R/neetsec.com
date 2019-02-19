@@ -6,8 +6,15 @@ h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, l
     font-family: 'Proxima nova regular';
     vertical-align: baseline;
 }
+body{
+    overflow-x: hidden; 
+
+}
 nav{
     box-shadow: none;
+}
+.margin-fix{
+    margin-top: 110px;
 }
 .navlink{
     font-family: 'proxima_nova_altblack';
@@ -24,7 +31,7 @@ nav{
 
         a{
             height: 40px;
-
+                
             color: black!important;   
         }
 }}
@@ -32,14 +39,15 @@ nav{
     height: 64px;
 }
 
-.navbar-fixed{
-    height: 0px !important;
+nav ul a {
+    font-size: 1.2rem;
+    color: $secondary-color;
 }
 
 #mynav{
     background:  transparent;
     font-family: 'proxima_nova_altblack';
-    padding: 90px 0px; /* Large padding which will shrink on scroll (using JS) */
+    padding: 60px 0px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     
 }
@@ -53,7 +61,7 @@ nav{
 }
 
 .colored-container{
-    background:  white !important;   
+    background:  #fff!important;   
     box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
     .nav-wrapper{
         ul{
@@ -61,6 +69,9 @@ nav{
             color:$primary-color !important;
         }}
     }
+}
+*, *:before, *:after {
+     box-sizing: content-box;
 }
 
 
@@ -107,14 +118,15 @@ nav{
 }
 .brand-logo{
     img{
-        height: 60px;
+        margin-top: -15px;
+        height: 100px;
     }
 }
 
 .title{
         font-family: 'proxima_nova_altblack';
         font-size: 57px;
-        line-height: 55px;
+        height: 55px;
         text-transform: uppercase;
         color: rgb(60, 57, 102);
         .title{
@@ -173,9 +185,161 @@ text-align: center;
     height: 20px;
 }
 
-.image{
-    padding: 90px 90px 90px 90px!important;
-    @media (max-width: 600px) {
-        padding: 0px 0px 0px 0px!important;
+.products-img{
+    max-width: 100%;
+    height: auto;
+}
+.bg-img{
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    z-index: -10;
+    left: -10%;
+    padding-top: 10%;
+}
+.bg-img1{
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    z-index: -10;
+    margin-left: 60%;
+    padding-top: 35%;
+}
+
+.products-title{
+    font-family: 'Marsek Demi';
+    color:#3dffef;   
+    padding-top: 90px;
+    font-size: 22px;
+    padding-right: 20px;
+    padding-left:10px;
+}
+.line-bg{
+    width:50%;
+}
+.bar-bg{
+    padding-top:90%;
+}
+
+.products-text-title{
+    font-family: 'Marsek Demi';
+    color:#ffffff;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+
+.products-line{
+    stroke:rgb(255, 255, 255);
+    stroke-width:2;
+}
+
+.footer-text{
+    font-family: 'Proxima nova regular';
+    padding-left: 29px;
+}
+
+.products-section-2{
+    padding-bottom: 100px;
+}
+
+.products-title-line{
+    background-color: rgba(3, 24, 96,0.7);
+    border-radius: 20px;
+}
+
+.products-text{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.margin-text{
+    margin-bottom: 50px;
+}
+
+.products-text-sentences{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+}
+
+.products-text-sentences-autor{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: oblique;
+}
+.pad-dif{
+    margin-top: 120px;
+}
+.linear-grad-1{
+    stop-color:rgb(70,80,225);
+    stop-opacity:1;
+}
+.linear-grad-2{
+    stop-color:rgb(50,210,210);
+    stop-opacity:1;
+}
+
+.products-line-2{
+    stroke:url(#grad1);
+    stroke-width:2;
+    position: absolute;
+}
+
+.products-circle{
+    stroke:url(#grad1);
+    fill:url(#grad1);
+    stroke-width:2;
+    position: relative;
+}
+
+.text-vertical{
+    writing-mode: vertical-lr;
+    padding-right: 50px;
+    padding-bottom: 320px;
+    font-size: 18px;
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 1085px) {    
+    .margin-text{
+        margin-bottom: 0px!important;
     }
 }
+
+::-webkit-scrollbar {
+    width: 17px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ddd; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #002a38; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
+  circle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  

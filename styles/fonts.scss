@@ -1,6 +1,10 @@
-/** Proxima Nova **/
-
-
+@font-face {
+    font-family: 'Marsek Demi';
+    src: url('/static/fonts/MarsekDemi.woff2') format('woff2'),
+        url('/static/fonts/MarsekDemi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'proxima_nova_altblack';
