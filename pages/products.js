@@ -40,7 +40,6 @@ class Products extends React.Component {
               </div>
               <div className="col s12 m12 l8 valign-wrapper">
                 <img className="products-img" alt="computer" src="../static/images/1000/Computer-(1000).png" />
-                
                 <p className="text-vertical">©2019 NeetSec International</p>
               </div>
             </div>
