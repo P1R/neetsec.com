@@ -17,10 +17,10 @@ class About extends React.Component {
       <div className="about-main">
         <style jsx>{`
       .about-main{
-        background-image: url("../static/images/800/HUELLA-DERECHA-(800)-.png");
+        background: url("../static/images/800/HUELLA-DERECHA-(800)-.png") 105% -30%, url("../static/images/800/NEON-LINES(800).png") 108% 10%,url("../static/images/1400/BARRA(1400)-.png") 135% 150%;
         background-repeat: no-repeat;
-        background-position:right top;
-        background-size: 52% 43%;
+        background-size: 54% 68%,32% 38%, 70% 40%;
+      
       }      
     `}</style>
         <Navbar />

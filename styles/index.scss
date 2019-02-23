@@ -335,6 +335,7 @@ text-align: center;
     }
 }
 
+
 ::-webkit-scrollbar {
     width: 17px;
   }
@@ -376,7 +377,7 @@ text-align: center;
 .about-img-2{
     max-width: 25%;
     height: auto;
-    padding-left: 120px;
+    padding-left: 180px;
 }
 
 .team-img{
@@ -384,3 +385,40 @@ text-align: center;
     height: auto;
     border-radius: 50%;
 }
+
+.index-text{
+    font-size: 20px;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 68px;
+}
+
+.index-text-2{
+    text-align: justify;
+    font-size: 16px;
+    text-justify: inter-word;
+}
+
+.index-text-3{
+    text-align: justify;
+    font-size: 16px;
+    text-justify: inter-word;
+    padding-left: 90px;
+}
+
+.index-text-4{
+    text-align: justify;
+    font-size: 16px;
+    text-justify: inter-word;
+    text-align: right;
+    padding-right: 90px;
+}
+
+
+.index-img{
+    max-width: 30%;
+    max-height: 70%;
+    padding-left: 230px;
+}
+
+
