@@ -61,13 +61,22 @@ nav ul a {
 }
 
 .colored-container{
-    background:  #fff!important;   
+    background:  $primary-color!important;   
     box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
     .nav-wrapper{
         ul{
             a{
-            color:$primary-color !important;
+            color:$secondary-color;
+            a:last-child{
+                color:black !important;
+            }
         }}
+        .brand-logo{
+            img{
+                max-width: 200PX;
+                transition: 0.5s; /* Adds a transition effect when the padding is decreased */
+            }
+        }
     }
 }
 *, *:before, *:after {
@@ -118,8 +127,10 @@ nav ul a {
 }
 .brand-logo{
     img{
-        margin-top: -15px;
-        height: 100px;
+        width: 100%;
+        max-width: 300PX;
+        transition: 0.5s; /* Adds a transition effect when the padding is decreased */
+        height: auto;
     }
 }
 
@@ -196,6 +207,15 @@ text-align: center;
     z-index: -10;
     left: -10%;
     padding-top: 10%;
+    &.right{
+        padding-top: 0%;
+        margin-top: -10%;
+        margin-left: 60%;
+    }
+    &.about{
+        filter:contrast(200%);
+        transform: translateX(185%) translateY(-30%);
+    }
 }
 .bg-img1{
     position: absolute;
@@ -203,7 +223,8 @@ text-align: center;
     height: auto;
     z-index: -10;
     margin-left: 60%;
-    padding-top: 35%;
+    padding-top: 45%;
+    filter:contrast(200%);
 }
 
 .products-title{
@@ -253,7 +274,7 @@ text-align: center;
 }
 
 .products-title-line{
-    background-color: rgba(3, 24, 96,0.7);
+    background-color: rgba(3, 24, 96,0.3);
     border-radius: 20px;
 }
 
@@ -261,13 +282,13 @@ text-align: center;
     text-align: justify;
     text-justify: inter-word;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 .margin-text{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .products-text-sentences{
@@ -286,6 +307,9 @@ text-align: center;
     padding-left: 30px;
     padding-right: 30px;
     font-style: oblique;
+}
+.second-section{
+    margin-top: 190px;
 }
 .pad-dif{
     margin-top: 120px;
@@ -314,10 +338,10 @@ text-align: center;
 
 .text-vertical{
     writing-mode: vertical-lr;
-    padding-right: 50px;
     padding-bottom: 320px;
     font-size: 18px;
     transform: rotate(180deg);
+
 }
 
 .about-title{

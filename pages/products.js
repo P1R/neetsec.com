@@ -14,17 +14,12 @@ class Products extends React.Component {
   render() {
     return (
       <div className="products-main">
-        <style jsx>{`
-      .products-main{
-        background: url("../static/images/800/HUELLA-DERECHA-(800)-.png") 115% -17%, url("../static/images/1400/BARRA(1400)-.png") 515% 52%;
-        background-repeat: no-repeat;
-        background-size: 55% 32%, 90% 20%;
-      }     
-    `}</style>
         <Navbar /> 
-        <div className="bg-img"><img className="line-bg"src="../static/images/1400/NEON-LINES(1400).png"/></div>
-        <div className="bg-img"><img className="bar-bg"src="../static/images/1000/HUELLA-IZQUIERDA-(1000)-.png"/></div>
-        <div className="bg-img1"><img className="bar-bg"src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img right hide-on-med-and-down"><img src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img hide-on-med-and-down"><img className="line-bg"src="../static/images/1400/NEON-LINES(1400).png"/></div>
+        <div className="bg-img hide-on-med-and-down"><img className="bar-bg"src="../static/images/1000/HUELLA-IZQUIERDA-(1000)-.png"/></div>
+        <div className="bg-img1 hide-on-med-and-down"><img className="bar-bg"src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img1 hide-on-med-and-down"><img className="bar-bg"src="../static/images/1400/BARRA(1400)-.png"/></div>
           <div className="container margin-fix">
             <div className="row">
               <div className="col s12 m12 l3">
@@ -75,7 +70,7 @@ class Products extends React.Component {
               
               
               
-              <div className="col s12 m12 l2">
+              <div className=" hide-on-med-and-down col s12 m12 l2">
                 <svg height="1200" width="300" >
                   <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -156,7 +151,7 @@ class Products extends React.Component {
                 <p className="products-text">{this.props.t('products-text-12')}</p>
                 <p className="products-text">{this.props.t('products-text-13')}</p>
               </div>
-              <div className="col s12 m12 l2">
+              <div className=" hide-on-med-and-down col s12 m12 l2">
                 <svg height="1600" width="300">
                   <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -180,8 +175,7 @@ class Products extends React.Component {
                   Sorry, your browser does not support inline SVG.
                 </svg>
               </div>
-              <div className="col s12 m12 l5">
-              <br/><br/><br/><br/><br/><br/><br/><br/>
+              <div className="col s12 m12 l5 second-section">
               <div className="valign-wrapper products-title-line right-align">
                   <p className="products-text-title">{this.props.t('products-title-7')}</p>
                   <svg height="110" width="110">

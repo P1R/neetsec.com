@@ -15,16 +15,14 @@ class About extends React.Component {
   render() {
     return (
       <div className="about-main">
-        <style jsx>{`
-      .about-main{
-        background: url("../static/images/800/HUELLA-DERECHA-(800)-.png") 105% -30%, url("../static/images/800/NEON-LINES(800).png") 108% 10%,url("../static/images/1400/BARRA(1400)-.png") 135% 150%;
-        background-repeat: no-repeat;
-        background-size: 54% 68%,32% 38%, 70% 40%;
-      
-      }      
-    `}</style>
+
         <Navbar />
-        <div className="bg-img"><img className="bar-bg"src="../static/images/800/HUELLA-IZQUIERDA-(800)-.png"/></div>
+        <div className="bg-img right hide-on-med-and-down"><img src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img right hide-on-med-and-down"><img src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img1 hide-on-med-and-down"><img className="bar-bg"src="../static/images/1400/BARRA(1400)-.png"/></div>
+        <div className="bg-img about hide-on-med-and-down"><img className="line-bg"src="../static/images/1400/NEON-LINES(1400).png"/></div>
+        <div className="bg-img hide-on-med-and-down"><img className="bar-bg"src="../static/images/1000/HUELLA-IZQUIERDA-(1000)-.png"/></div>
+        
         <div className="container margin-fix">
           <div className="row">
             <div className="col s12 m12 l3">
@@ -40,14 +38,6 @@ class About extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col s12 m12 l6">
-              <div className="right-align">
-                <svg height="150" width="200">
-                  <line className="products-line" x1="50" y1="120" x2="200" y2="120" />
-                  Sorry, your browser does not support inline SVG.
-                </svg>
-              </div>
-            </div>
             <div className="col s12 m12 l2 left-align">
               <p className="products-title ">{this.props.t('about-title-2')}</p>
             </div>
@@ -62,14 +52,6 @@ class About extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col s12 m12 l1">
-              <div className="right-align">
-                <svg height="150" width="200">
-                  <line className="products-line" x1="0" y1="120" x2="80" y2="120" />
-                  Sorry, your browser does not support inline SVG.
-                </svg>
-              </div>
-            </div>
             <div className="col s12 m12 l2 left-align">
               <p className="products-title ">{this.props.t('about-title-3')}</p>
             </div>
@@ -83,7 +65,6 @@ class About extends React.Component {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     )
   }
