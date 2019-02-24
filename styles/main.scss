@@ -13,13 +13,16 @@
     background-color: rgb(0, 118, 255);
 }
 body{
-    background-color: #24226a;
+    background-color: $primary-color;
 }
 h1, li{
     color: #78b5b9
 }
 p, h2, h3{
     color: white;
+}
+p{
+    font-size: 18px;
 }
 
 

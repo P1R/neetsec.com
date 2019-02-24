@@ -14,19 +14,12 @@ class Products extends React.Component {
   render() {
     return (
       <div className="products-main">
-        <style jsx>{`
-      .products-main{
-        background-image: url("../static/images/800/HUELLA-DERECHA-(800)-.png");
-        background-repeat: no-repeat;
-        background-position:right top;
-        background-size: 42% 23%;
-      }      
-    `}</style>
         <Navbar /> 
-        <div className="bg-img"><img className="line-bg"src="../static/images/1400/NEON-LINES(1400).png"/></div>
-        <div className="bg-img"><img className="bar-bg"src="../static/images/1000/HUELLA-IZQUIERDA-(1000)-.png"/></div>
-        <div className="bg-img1"><img className="bar-bg"src="../static/images/1400/BARRA(1400)-.png"/></div>
-        <div className="bg-img1"><img className="bar-bg"src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img right hide-on-med-and-down"><img src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img hide-on-med-and-down"><img className="line-bg"src="../static/images/1400/NEON-LINES(1400).png"/></div>
+        <div className="bg-img hide-on-med-and-down"><img className="bar-bg"src="../static/images/1000/HUELLA-IZQUIERDA-(1000)-.png"/></div>
+        <div className="bg-img1 hide-on-med-and-down"><img className="bar-bg"src="../static/images/1400/HUELLADERECHA.png"/></div>
+        <div className="bg-img1 hide-on-med-and-down"><img className="bar-bg"src="../static/images/1400/BARRA(1400)-.png"/></div>
           <div className="container margin-fix">
             <div className="row">
               <div className="col s12 m12 l3">
@@ -40,7 +33,6 @@ class Products extends React.Component {
               </div>
               <div className="col s12 m12 l8 valign-wrapper">
                 <img className="products-img" alt="computer" src="../static/images/1000/Computer-(1000).png" />
-                
                 <p className="text-vertical">©2019 NeetSec International</p>
               </div>
             </div>
@@ -78,7 +70,7 @@ class Products extends React.Component {
               
               
               
-              <div className="col s12 m12 l2">
+              <div className=" hide-on-med-and-down col s12 m12 l2">
                 <svg height="1200" width="300" >
                   <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -86,16 +78,16 @@ class Products extends React.Component {
                       <stop offset="100%" className="linear-grad-2" />
                     </linearGradient>
                   </defs>
-                  <line x1="23" y1="44" x2="25" y2="520" className="products-line-2" />
+                  <line x1="23" y1="44" x2="25" y2="570" className="products-line-2" />
                   <line x1="23" y1="44" x2="160" y2="170" className="products-line-2" />
-                  <line x1="23" y1="520" x2="160" y2="170" className="products-line-2" />
-                  <line x1="23" y1="520" x2="160" y2="515" className="products-line-2" />
-                  <line x1="23" y1="800" x2="160" y2="515" className="products-line-2" />
+                  <line x1="23" y1="570" x2="160" y2="170" className="products-line-2" />
+                  <line x1="23" y1="570" x2="160" y2="569" className="products-line-2" />
+                  <line x1="23" y1="905" x2="160" y2="570" className="products-line-2" />
                   <circle cx="23" cy="60" r="20" className="products-circle" />
                   <circle cx="153" cy="170" r="20" className="products-circle" />
-                  <circle cx="23" cy="520" r="20" className="products-circle" />
-                  <circle cx="153" cy="520" r="20" className="products-circle" />
-                  <circle cx="23" cy="800" r="20" className="products-circle" />
+                  <circle cx="23" cy="570" r="20" className="products-circle" />
+                  <circle cx="153" cy="570" r="20" className="products-circle" />
+                  <circle cx="23" cy="905" r="20" className="products-circle" />
                   Sorry, your browser does not support inline SVG.
                 </svg>
               </div>
@@ -159,7 +151,7 @@ class Products extends React.Component {
                 <p className="products-text">{this.props.t('products-text-12')}</p>
                 <p className="products-text">{this.props.t('products-text-13')}</p>
               </div>
-              <div className="col s12 m12 l2">
+              <div className=" hide-on-med-and-down col s12 m12 l2">
                 <svg height="1600" width="300">
                   <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -167,24 +159,23 @@ class Products extends React.Component {
                       <stop offset="100%" className="linear-grad-2" />
                     </linearGradient>
                   </defs>
-                  <line x1="23" y1="44" x2="25" y2="360" className="products-line-2" />
                   <line x1="23" y1="44" x2="160" y2="246" className="products-line-2" />
-                  <line x1="23" y1="670" x2="160" y2="246" className="products-line-2" />
-                  <line x1="23" y1="670" x2="160" y2="825" className="products-line-2" />
-                  <line x1="23" y1="1035" x2="160" y2="825" className="products-line-2" />
-                  <line x1="23" y1="1035" x2="160" y2="1364" className="products-line-2" />
+                  <line x1="23" y1="722" x2="160" y2="246" className="products-line-2" />
+                  <line x1="23" y1="410" x2="160" y2="875" className="products-line-2" />
+                  <line x1="23" y1="722" x2="160" y2="875" className="products-line-2" />
+                  <line x1="23" y1="1085" x2="160" y2="875" className="products-line-2" />
+                  <line x1="23" y1="1085" x2="160" y2="1464" className="products-line-2" />
                   <circle cx="23" cy="60" r="20" className="products-circle" />
                   <circle cx="153" cy="246" r="20" className="products-circle" />
-                  <circle cx="23" cy="370" r="20" className="products-circle" />
-                  <circle cx="23" cy="670" r="20" className="products-circle" />
-                  <circle cx="23" cy="1035" r="20" className="products-circle" />
-                  <circle cx="153" cy="825" r="20" className="products-circle" />
-                  <circle cx="153" cy="1364" r="20" className="products-circle" />
+                  <circle cx="23" cy="405" r="20" className="products-circle" />
+                  <circle cx="23" cy="722" r="20" className="products-circle" />
+                  <circle cx="23" cy="1085" r="20" className="products-circle" />
+                  <circle cx="153" cy="875" r="20" className="products-circle" />
+                  <circle cx="153" cy="1464" r="20" className="products-circle" />
                   Sorry, your browser does not support inline SVG.
                 </svg>
               </div>
-              <div className="col s12 m12 l5">
-              <br/><br/><br/><br/><br/><br/><br/><br/>
+              <div className="col s12 m12 l5 second-section">
               <div className="valign-wrapper products-title-line right-align">
                   <p className="products-text-title">{this.props.t('products-title-7')}</p>
                   <svg height="110" width="110">
