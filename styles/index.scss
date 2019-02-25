@@ -176,14 +176,18 @@ nav ul a {
         padding: 0px 0px 60px 0px!important;
     }
 }
+.card{
+    background-color: transparent;
+}
 .card-medium{
     img{
         width: 100%;
         height: auto;
+        border-radius: 50%;
     }
 }
 .card-title{
-color: #1a237e !important;
+color: #fff !important;
 font-family: 'proxima_nova_altblack';
 font-size: 2vw!important;
 text-align: center;
@@ -440,9 +444,14 @@ text-align: center;
 
 
 .index-img{
-    max-width: 30%;
+    max-width: 90%;
     max-height: 70%;
-    padding-left: 230px;
 }
 
+.index-img1{
+    max-width: 40%;
+    max-height: 70%;
+    margin: 0 auto;
+    padding-left: 10%;
+}
 
