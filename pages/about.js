@@ -30,7 +30,7 @@ class About extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col s12 m12 l5">
+            <div className="col s12 m12 push-l1 l5">
               <p className="about-text">{this.props.t('about-text-1')}</p>
             </div>
             <div className="col s12 m12 l6">

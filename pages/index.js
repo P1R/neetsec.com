@@ -12,25 +12,25 @@ class Homepage extends React.Component {
         }
     }
 
-    render() {
+    render() { 
         return (
             <div className="index-main">
-            <style jsx>{`
-            .index-main{
-                background: url("../static/images/800/NEON-LINES(800).png") -10% 50%;
-                background-repeat: no-repeat;
-                background-size: 22% 38%;
-            }      
-            `}</style>
                 <Navbar />
+                <div className="bg-img hide-on-med-and-down"><img className="line-bg"src="../static/images/1400/NEON-LINES(1400).png"/></div>
+
+
                 <div className="container margin-fix">
                     <div className="row">
+                       
                         <div className="col s12 m12 l4 valign-wrapper">
                             <svg height="150" width="80">
                                 <line className="products-line" x1="0" y1="120" x2="80" y2="120" />
                                 Sorry, your browser does not support inline SVG.
                             </svg>
                             <p className="about-title">{this.props.t('home-title-1')}</p>
+                        </div>
+                        <div className="col push-l3 s12 m12 l12">
+                            <img src="../static/images/1400/world2 (1400).png" className="index-img" ></img>
                         </div>
                     </div>
                     <div className="row">
@@ -42,7 +42,7 @@ class Homepage extends React.Component {
 
                         <div className="row">
                             <div className="col s12 m12 l5">
-                                <img src="../static/images/1400/logo-.png" className="index-img" ></img>
+                                <img src="../static/images/1400/logo-.png" className="index-img1" ></img>
                                 
                             </div> 
                             <div className="col s12 m12 l6">
