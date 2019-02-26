@@ -90,41 +90,6 @@ nav ul a {
         margin-left: 80px;
 }
 
-.banner-static {
-    background: #fff url("../static/images/slider-bg.jpg") no-repeat ;
-    padding-top: 190px;
-    overflow: hidden;
-    background-position: top right;
-    background-size: 87%;
-    padding-bottom: 90px;
-    margin-top: -64px;
-}
-.banner-static.pages {
-    background: #fff url("../static/images/bg.png") no-repeat ;
-    padding-top: 200px;
-    overflow: hidden;
-    background-position-y: 1000px;
-    background-position: top right;
-    background-size: 50%;
-    margin-bottom: -80px;
-}
-.banner-static.team {
-    background: #fff url("../static/images/bg.png") no-repeat ;
-    padding-top: 200px;
-    overflow: hidden;
-    background-position-y: 1000px;
-    background-position: top right;
-    background-size: 65%;
-    padding-bottom: 80px;
-    margin-top: -60px;
-    height: 10vh;}
-.lstps {
-    li{
-
-   font-size: 20px;
-    list-style-type: disc!important;
-}
-}
 .brand-logo{
     img{
         width: 100%;
@@ -453,5 +418,11 @@ text-align: center;
     max-height: 70%;
     margin: 0 auto;
     padding-left: 10%;
+    @media (max-width: 600px) {
+        padding-left:90px;
+    }
 }
 
+.sidenav{
+    background-color: #251E71;
+}
