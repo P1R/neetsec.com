@@ -6,8 +6,15 @@ h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, l
     font-family: 'Proxima nova regular';
     vertical-align: baseline;
 }
+body{
+    overflow-x: hidden; 
+
+}
 nav{
     box-shadow: none;
+}
+.margin-fix{
+    margin-top: 110px;
 }
 .navlink{
     font-family: 'proxima_nova_altblack';
@@ -24,7 +31,7 @@ nav{
 
         a{
             height: 40px;
-
+                
             color: black!important;   
         }
 }}
@@ -32,14 +39,15 @@ nav{
     height: 64px;
 }
 
-.navbar-fixed{
-    height: 0px !important;
+nav ul a {
+    font-size: 1.2rem;
+    color: $secondary-color;
 }
 
 #mynav{
     background:  transparent;
     font-family: 'proxima_nova_altblack';
-    padding: 90px 0px; /* Large padding which will shrink on scroll (using JS) */
+    padding: 60px 0px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     
 }
@@ -53,14 +61,26 @@ nav{
 }
 
 .colored-container{
-    background:  white !important;   
+    background:  $primary-color!important;   
     box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
     .nav-wrapper{
         ul{
             a{
-            color:$primary-color !important;
+            color:$secondary-color;
+            a:last-child{
+                color:black !important;
+            }
         }}
+        .brand-logo{
+            img{
+                max-width: 200PX;
+                transition: 0.5s; /* Adds a transition effect when the padding is decreased */
+            }
+        }
     }
+}
+*, *:before, *:after {
+     box-sizing: content-box;
 }
 
 
@@ -70,51 +90,19 @@ nav{
         margin-left: 80px;
 }
 
-.banner-static {
-    background: #fff url("../static/images/slider-bg.jpg") no-repeat ;
-    padding-top: 190px;
-    overflow: hidden;
-    background-position: top right;
-    background-size: 87%;
-    padding-bottom: 90px;
-    margin-top: -64px;
-}
-.banner-static.pages {
-    background: #fff url("../static/images/bg.png") no-repeat ;
-    padding-top: 200px;
-    overflow: hidden;
-    background-position-y: 1000px;
-    background-position: top right;
-    background-size: 50%;
-    margin-bottom: -80px;
-}
-.banner-static.team {
-    background: #fff url("../static/images/bg.png") no-repeat ;
-    padding-top: 200px;
-    overflow: hidden;
-    background-position-y: 1000px;
-    background-position: top right;
-    background-size: 65%;
-    padding-bottom: 80px;
-    margin-top: -60px;
-    height: 10vh;}
-.lstps {
-    li{
-
-   font-size: 20px;
-    list-style-type: disc!important;
-}
-}
 .brand-logo{
     img{
-        height: 60px;
+        width: 100%;
+        max-width: 300PX;
+        transition: 0.5s; /* Adds a transition effect when the padding is decreased */
+        height: auto;
     }
 }
 
 .title{
         font-family: 'proxima_nova_altblack';
         font-size: 57px;
-        line-height: 55px;
+        height: 55px;
         text-transform: uppercase;
         color: rgb(60, 57, 102);
         .title{
@@ -153,14 +141,18 @@ nav{
         padding: 0px 0px 60px 0px!important;
     }
 }
+.card{
+    background-color: transparent;
+}
 .card-medium{
     img{
         width: 100%;
         height: auto;
+        border-radius: 50%;
     }
 }
 .card-title{
-color: #1a237e !important;
+color: #fff !important;
 font-family: 'proxima_nova_altblack';
 font-size: 2vw!important;
 text-align: center;
@@ -173,9 +165,264 @@ text-align: center;
     height: 20px;
 }
 
-.image{
-    padding: 90px 90px 90px 90px!important;
-    @media (max-width: 600px) {
-        padding: 0px 0px 0px 0px!important;
+.products-img{
+    max-width: 100%;
+    height: auto;
+}
+.bg-img{
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    z-index: -10;
+    left: -10%;
+    padding-top: 10%;
+    &.right{
+        padding-top: 0%;
+        margin-top: -10%;
+        margin-left: 60%;
     }
+    &.about{
+        filter:contrast(200%);
+        transform: translateX(185%) translateY(-30%);
+    }
+}
+.bg-img1{
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    z-index: -10;
+    margin-left: 60%;
+    padding-top: 45%;
+    filter:contrast(200%);
+}
+
+.products-title{
+    font-family: 'Marsek Demi';
+    color:#3dffef;   
+    padding-top: 90px;
+    font-size: 22px;
+    padding-right: 20px;
+    padding-left:10px;
+}
+
+.line-bg{
+    width:50%;
+}
+.bar-bg{
+    padding-top:90%;
+}
+
+.bar-bg-2{
+    padding-top:90%;
+    background-position:right top;
+}
+
+.products-text-title{
+    font-family: 'Marsek Demi';
+    color:#ffffff;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+
+.products-line{
+    stroke:rgb(255, 255, 255);
+    stroke-width:2;
+}
+
+.footer-text{
+    font-family: 'Proxima nova regular';
+    padding-left: 29px;
+}
+
+.products-section-2{
+    padding-bottom: 100px;
+}
+
+.products-title-line{
+    background-color: rgba(3, 24, 96,0.3);
+    border-radius: 20px;
+}
+
+.products-text{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.margin-text{
+    margin-bottom: 30px;
+}
+
+.products-text-sentences{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+}
+
+.products-text-sentences-autor{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: oblique;
+}
+.second-section{
+    margin-top: 190px;
+}
+.pad-dif{
+    margin-top: 120px;
+}
+.linear-grad-1{
+    stop-color:rgb(70,80,225);
+    stop-opacity:1;
+}
+.linear-grad-2{
+    stop-color:rgb(50,210,210);
+    stop-opacity:1;
+}
+
+.products-line-2{
+    stroke:url(#grad1);
+    stroke-width:2;
+    position: absolute;
+}
+
+.products-circle{
+    stroke:url(#grad1);
+    fill:url(#grad1);
+    stroke-width:2;
+    position: relative;
+}
+
+.text-vertical{
+    writing-mode: vertical-lr;
+    padding-bottom: 320px;
+    font-size: 18px;
+    transform: rotate(180deg);
+
+}
+
+.about-title{
+    font-family: 'Marsek Demi';
+    color:#3dffef;   
+    padding-top: 100px;
+    font-size: 22px;
+    padding-right: 20px;
+    padding-left:10px;
+}
+
+@media only screen and (max-width: 1085px) {    
+    .margin-text{
+        margin-bottom: 0px!important;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 17px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ddd; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #002a38; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
+  circle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+
+  .about-text{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+.about-img{
+    max-width: 34%;
+    height: auto;
+    padding-left: 70px;
+}
+
+.about-img-2{
+    max-width: 25%;
+    height: auto;
+    padding-left: 180px;
+}
+
+.team-img{
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.index-text{
+    font-size: 20px;
+    text-justify: inter-word;
+    padding-bottom: 30px;
+    padding-left: 68px;
+}
+
+.index-text-2{
+    text-align: justify;
+    font-size: 16px;
+    text-justify: inter-word;
+}
+
+.index-text-3{
+    text-align: justify;
+    font-size: 16px;
+    text-justify: inter-word;
+    padding-left: 90px;
+}
+
+.index-text-4{
+    text-align: justify;
+    font-size: 16px;
+    text-justify: inter-word;
+    text-align: right;
+    padding-right: 90px;
+}
+
+
+.index-img{
+    max-width: 90%;
+    max-height: 70%;
+}
+
+.index-img1{
+    max-width: 40%;
+    max-height: 70%;
+    margin: 0 auto;
+    padding-left: 10%;
+    @media (max-width: 600px) {
+        padding-left:90px;
+    }
+}
+
+.sidenav{
+    background-color: #251E71;
 }
