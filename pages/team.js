@@ -31,15 +31,14 @@ class Team extends React.Component {
           <div className="col s12 m3">
             <div className="card">
               <div className="card-medium center">
-                <img src="/static/images/fawkes.png"></img>
-                <span className="card-title">Jon Fawkes Greger</span>
+                <img src="/static/images/ronald.PNG"></img>
+                <span className="card-title">Ronald J. Bogart</span>
               </div>
               <div className=" center">
-                <p><a href="#">{this.props.t('fawkes-employee')}</a></p>
-                <a href="mailto:fawkes@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
+                <p><a href="#">{this.props.t('ronald-employee')}</a></p>
               </div>
               <div className="card-content">
-                <p>{this.props.t('fawkes-description')}</p>
+                <p>{this.props.t('ronald-description')}</p>
               </div>
             </div>
           </div>
@@ -67,16 +66,15 @@ class Team extends React.Component {
           <div className="col s12 m3">
             <div className="card">
               <div className="card-medium center">
-                <img src="/static/images/alex.png"></img>
-                <span className="card-title">Alexandre Ederer</span>
+                <img src="/static/images/fawkes.png"></img>
+                <span className="card-title">Jon Fawkes Greger</span>
               </div>
               <div className=" center">
-                <p><a href="#">{this.props.t('alex-employee')}</a></p>
-                <a className="linkedin" href="https://www.linkedin.com/in/alexandre-ederer/" target="_blank"><img src="/static/images/linkedin.png" alt="LinkedIn"></img></a>
-                <a href="mailto:alex@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
+                <p><a href="#">{this.props.t('fawkes-employee')}</a></p>
+                <a href="mailto:fawkes@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
               </div>
               <div className="card-content">
-                <p>{this.props.t('alex-description')}</p>
+                <p>{this.props.t('fawkes-description')}</p>
               </div>
             </div>
           </div>
@@ -175,6 +173,50 @@ class Team extends React.Component {
 
         </div>
           <div className="row">
+          
+          <div className="col s12 m3">
+            <div className="card">
+              <div className="card-medium center">
+                <img src="/static/images/manuel.PNG"></img>
+                <span className="card-title">Manuel Zamora</span>
+              </div>
+              <div className=" center">
+                <p><a href="#">{this.props.t('manuel-employee')}</a></p>
+              </div>
+              <div className="card-content">
+                <p>{this.props.t('manuel-description')}</p>
+              </div>
+            </div>
+          </div>
+          <div className="col s12 m3">
+            <div className="card">
+              <div className="card-medium center">
+                <img src="/static/images/marco.PNG"></img>
+                <span className="card-title">Marco Blanke</span>
+              </div>
+              <div className=" center">
+                <p><a href="#">{this.props.t('marco-employee')}</a></p>
+              </div>
+              <div className="card-content">
+                <p>{this.props.t('marco-description')}</p>
+              </div>
+            </div>
+          </div>
+          <div className="col s12 m3">
+            <div className="card">
+              <div className="card-medium center">
+                <img src="/static/images/jeroen.PNG"></img>
+                <span className="card-title">Jeroen Nissen</span>
+              </div>
+              <div className=" center">
+                <p><a href="#">{this.props.t('jeroen-employee')}</a></p>
+              </div>
+              <div className="card-content">
+                <p>{this.props.t('jeroen-description')}</p>
+              </div>
+            </div>
+          </div>
+
           <div className="col s12 m3">
             <div className="card">
               <div className="card-medium center">
