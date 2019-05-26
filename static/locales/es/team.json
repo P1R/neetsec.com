@@ -1,12 +1,12 @@
 {
     "title":"CONOCE AL EQUIPO",
+    "ronald-employee":"CEO",
+    "ronald-description":"Ron tiene 20 años de experiencia en el campo de combustión mejorado con hidrógeno. Ron era un ex socio de Ernst & Young, miembro fundador de Mississauga High Technology Association y el presidente de IntraLink Associates Limited, una agencia de ventas Organización para soluciones de tecnología limpia.",
     "pyro-employee":"CTO | Co-fundador",
     "pyro-description":"Ingeniero en comunicaciones y electrónica, trabaja en soluciones de ciberseguridad y criptomoneda. Actualmente centrado en diseñar arquitecturas con perspectiva de ciberseguridad y desarrollo de contratos inteligentes.",
     "alvaro-employee":"Desarrollador Web 'Full Stack' | Documentador",
     "alvaro-description":"Maestro en ingeniería en sistemas de información.",
-    "alex-employee":"Scrum master | White paper editor",
-    "alex-description":"Scrum master (Agile), Marketing Content Manager for Verge Currency, Administrador de proyectos y Moonlights como editor.",
-    "fawkes-employee":"C.E.O",
+    "fawkes-employee":"CSO",
     "fawkes-description":"Ingeniero social, experto en ventas y marketing B2B. Experiencia en proyectos respaldados por el estado, productos internacionales y consultoría de TI. Trabaja principalmente con relaciones cliente-socio, recursos humanos y tokenomics Crypto.",
     "let-employee":"Desarrollador Web",
     "let-description":"Diseñador digital, centrado en el diseño UI/UX, Diseño Web e Ilustración con algunos conocimientos de back-end.",
@@ -17,5 +17,11 @@
     "jesi-employee":"Asesor de Créditos de Carbono",
     "jesi-description":"Ingeniero Petroquímico trabajando en el sector energético mexicano. Enfocado en la regulación de los mercados de petróleo y energía.",
     "dx-employee":"Redactor",
-    "dx-description":"Redactor con habilidades en redes sociales y campañas publicitarias. Enfocado en redacción de empresas, redacción y edición de documentos."
+    "dx-description":"Redactor con habilidades en redes sociales y campañas publicitarias. Enfocado en redacción de empresas, redacción y edición de documentos.",
+    "manuel-employee":"Economista",
+    "manuel-description":"Es economista senior del proyecto DECA. Ha trabajado en el análisis económico de la compañía de recursos humanos más grande del mundo, reportando KPI estratégicos a las oficinas centrales en los Estados Unidos y las compañías afiliadas en México y América Central. Además, también lidera diversos proyectos de inversión para pymes. Actualmente, Manuel está trabajando en un proyecto nacional sólido que desarrolla estudios sobre competencia, variables comerciales y asuntos de vigilancia para la industria de la energía en México.",
+    "marco-employee":"Consultor Financiero Senior / Especialista en Mercado Financiero de Energía",
+    "marco-description":"MA en Administración de Empresas con énfasis en finanzas, es un consultor experimentado en los mercados financieros y de energía. Desarrolló con éxito estrategias de cobertura para empresas en los mercados de ETS de la UE, créditos de carbono y certificados de energía. Además, diseñó modelos financieros y lideró el análisis financiero de proyectos fotovoltaicos. Actualmente, Marco es consultor financiero senior que administra planes de negocios, previsiones, valoración de negocios y análisis de mercado para el ecosistema DECA y varias empresas pequeñas y medianas en México.",
+    "jeroen-employee":"Asesor de estrategia y marketing",
+    "jeroen-description":"Tiene una maestría doble en administración estratégica y mercadeo. Como consultor de estrategia, ayudó a varias empresas nuevas con el desarrollo de un estrategia de monetización de datos a largo plazo y en la creación de una identidad de marca. Además, como consultor, trabajó en varios negocios corporativos, como United Parcel Service (UPS) y Philips. Su amplio conocimiento académico se utiliza en su papel de asesor. Como asesor, proporciona dirección estratégica al proyecto DECA y trabaja estrechamente con el equipo de desarrollo del proyecto en para asegurar la sostenibilidad y el crecimiento futuro del ecosistema DECA."
 }
