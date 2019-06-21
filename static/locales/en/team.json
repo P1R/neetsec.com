@@ -5,9 +5,7 @@
     "pyro-employee":"CTO | Co-founder",
     "pyro-description":"Communications and electronics engineer, working on cybersecurity and cryptocurrency solutions. Currently focused on designing architectures with a cybersecurity perspective and development of intelligent contracts.",
     "alvaro-employee":"Web Developer 'Full Stack' | Documenter",
-    "alvaro-description":"Master in information systems engineering.",
-    "fawkes-employee":"CSO",
-    "fawkes-description":"Social Engineer, B2B Sales and marketing expert. Experience with state-backed projects, international products and IT consultancy. Work mostly with customer-partner relations, Human Resources and Crypto tokenomics.",
+    "alvaro-description":"Master in information systems engineering. Information systems developer with Web interface and mobile applications. Database Administrator.",
     "let-employee":"Web Developer",
     "let-description":"Digital designer, focused on UI / UX design, Web Design and illustration with some knowledge of back-end.",
     "jose-employee":"Web Developer",
@@ -21,8 +19,5 @@
     "manuel-employee":"Senior Economist",
     "manuel-description":"Manuel Zamora is a senior economist for the DECA project. He has worked doing economic analysis for the world's largest human resources company, reporting strategic KPIs to the headquarters in the United States and the affiliate companies in Mexico and Central America. In addition, he leads sundry investment projects for SMEs, as well. Currently, Manuel is working in a robust national project developing studies on competition, trading variables and surveillance matters for the energy industry in Mexico.",
     "marco-employee":"Senior Financial Consultant / Energy Financial Market Specialist",
-    "marco-description":"Marco, M.A in Business Management with focus on finance, is an experienced consultant in financial and energy markets. He developed successfully hedging strategies for companies in the EU ETS, Carbon Credit and Energy Certificate Markets. Furthermore, he designed financial models and led financial analysis of photovoltaic projects. Currently, Marco is senior financial consultant managing business plans, forecasts, business valuation and market analysis for the DECA ecosystem and several small and midsize companies in Mexico.",
-    "jeroen-employee":"Strategy & marketing Advisor",
-    "jeroen-description":"Jeroen Nissen has a double master degree in strategic management and marketing management. As a strategy consultant, he assisted various startups with the development of a long-term data monetization strategy and in the creation of a brand identity. In addition, as a consultant he worked in various corporate business such as the United Parcel Service (UPS) and Philips. His broad academic knowledge is utilized in his advisory role. As an advisor, he provides strategic direction to the DECA project and works closely with the project development team in order to ensure the sustainability and future growth of the DECA ecosystem."
-    
+    "marco-description":"Marco, M.A in Business Management with focus on finance, is an experienced consultant in financial and energy markets. He developed successfully hedging strategies for companies in the EU ETS, Carbon Credit and Energy Certificate Markets. Furthermore, he designed financial models and led financial analysis of photovoltaic projects. Currently, Marco is senior financial consultant managing business plans, forecasts, business valuation and market analysis for the DECA ecosystem and several small and midsize companies in Mexico."
 }

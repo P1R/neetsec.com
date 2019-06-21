@@ -31,7 +31,7 @@ class Team extends React.Component {
           <div className="col s12 m3">
             <div className="card">
               <div className="card-medium center">
-                <img src="/static/images/ronald.PNG"></img>
+                <img src="/static/images/ronald.png"></img>
                 <span className="card-title">Ronald J. Bogart</span>
               </div>
               <div className=" center">
@@ -62,23 +62,20 @@ class Team extends React.Component {
             </div>
           </div>
 
-        
           <div className="col s12 m3">
             <div className="card">
               <div className="card-medium center">
-                <img src="/static/images/fawkes.png"></img>
-                <span className="card-title">Jon Fawkes Greger</span>
+                <img src="/static/images/marco.jpg"></img>
+                <span className="card-title">Marco Blanke</span>
               </div>
               <div className=" center">
-                <p><a href="#">{this.props.t('fawkes-employee')}</a></p>
-                <a href="mailto:fawkes@neetsec.com" target="_blank"><img className="mail" src="/static/images/mail.png" alt="GitLab"></img></a>
+                <p><a href="#">{this.props.t('marco-employee')}</a></p>
               </div>
               <div className="card-content">
-                <p>{this.props.t('fawkes-description')}</p>
+                <p>{this.props.t('marco-description')}</p>
               </div>
             </div>
           </div>
-
           <div className="col s12 m3">
             <div className="card">
               <div className="card-medium center">
@@ -188,34 +185,7 @@ class Team extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col s12 m3">
-            <div className="card">
-              <div className="card-medium center">
-                <img src="/static/images/marco.PNG"></img>
-                <span className="card-title">Marco Blanke</span>
-              </div>
-              <div className=" center">
-                <p><a href="#">{this.props.t('marco-employee')}</a></p>
-              </div>
-              <div className="card-content">
-                <p>{this.props.t('marco-description')}</p>
-              </div>
-            </div>
-          </div>
-          <div className="col s12 m3">
-            <div className="card">
-              <div className="card-medium center">
-                <img src="/static/images/jeroen.PNG"></img>
-                <span className="card-title">Jeroen Nissen</span>
-              </div>
-              <div className=" center">
-                <p><a href="#">{this.props.t('jeroen-employee')}</a></p>
-              </div>
-              <div className="card-content">
-                <p>{this.props.t('jeroen-description')}</p>
-              </div>
-            </div>
-          </div>
+          
 
           <div className="col s12 m3">
             <div className="card">
