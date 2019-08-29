@@ -56,19 +56,21 @@ class Navbar extends Component {
               <li><Link href="/about"><a>{this.props.t('About')}</a></Link></li>
               <li><Link href="/products"><a>{this.props.t('ProductsAndServices')}</a></Link></li>
               <li><Link href="/"><a 
-                                    onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en')}>
-                                    {this.props.t('EN')}</a></Link></li>
+                                    onClick={() => i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es')}>
+                                    {this.props.t('ES')}</a></Link></li>
               <div className="right lastchild-nav valign-wrapper"><li><Link href="/team"><a className="valign-wrapper">{this.props.t('Meet the team')}</a></Link></li></div>
             </ul>
           </div>
         </nav>
 
         <ul className="sidenav" id="mobile-demo">
-          <li><Link href="/index"><a className="white-text">Home</a></Link></li>
+          <li><Link href="/index"><a className="white-text">Homes</a></Link></li>
           <li><Link href="/about"><a className="white-text">About</a></Link></li>
           <li><Link href="/products"><a className="white-text">Products and Services</a></Link></li>
           <li><Link href="/team"><a className="white-text">Meet the team</a></Link></li>
-          <li><Link href="/index"><a className="white-text">EN</a></Link></li>
+          <li><Link href="/"><a 
+                                    onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en')}>
+                                    {this.props.t('EN')}</a></Link></li>
         </ul>
       </div>
     );
