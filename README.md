@@ -105,27 +105,27 @@ Install Nginx
 Install Certbot
 
 ```sh
-  $ sudo add-apt-repository ppa:certbot/certbot
+  $ sudo add-apt-repository ppa:certbot/certbot 
 ```
 
 **clone the repo in /var/www/ and switch to v19.neetsec.com directory:**
 
 ```sh
- cd /var/www/
- sudo git clone https://gitlab.com/NH-DEVs/v19.neetsec.com.git
- cd v19.neetsec.com
+  $ cd /var/www/
+  $ sudo git clone https://gitlab.com/NH-DEVs/v19.neetsec.com.git
+  $ cd v19.neetsec.com
 ```
 
 **install the next dependencies:**
 
 ```sh
- sudo npm install
+  $ sudo npm install
 ```
 
 **Build project to deploy**
 
 ```sh
- sudo npm run build
+  $ sudo npm run build
 ```
 
 ```sh
