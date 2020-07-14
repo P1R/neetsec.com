@@ -93,8 +93,6 @@ Your app is ready to be deployed!
 * Nginx >= 1.14.0
 * Cerbot >= 1.6
 * serve >= 11.3.2
-
-** Optional 
 * pm2 >= 4.4.0
 
 Install Nginx 
