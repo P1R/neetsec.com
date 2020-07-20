@@ -206,7 +206,7 @@ In the nginx config add the proxy pass
 
 **Now restart up Nginx!**
 
-**Note don't remember open the port in the firewall**
+**Remember to open the port in the firewall**
 
 ### Add SSL Certificate
 
