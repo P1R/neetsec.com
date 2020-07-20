@@ -91,7 +91,7 @@ Your app is ready to be deployed!
 ### Prerequisites
 
 * Nginx >= 1.14.0
-* Cerbot >= 1.6
+* Certbot >= 1.6
 * serve >= 11.3.2
 * pm2 >= 4.4.0
 
@@ -178,13 +178,13 @@ Run the command that was generated to set PM2 up to start on boot
   $ sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u your-username --hp /home/your-username
 ```
 
-In the forder run 
+In the directory run 
 
 ```sh 
   $ pm2 start npm --name "neetsec" --interpreter bash -- start
 ```
 
-Check status should show **status:online**
+Check status should show **status: online**
 
 ```sh 
   $ pm2 show neetsec
@@ -224,7 +224,7 @@ Finally renew the certificate with the following command and restart nginx
   $ sudo service nginx restart
 ```
 
-If you changed up your repository or made any changes to the configuration, just do a pull in repo and restart nginx:
+If you changed up your repository or made any changes to the configuration, just do a pull in the repo and restart nginx:
 
 ```sh
   $ git pull
@@ -233,3 +233,9 @@ If you changed up your repository or made any changes to the configuration, just
   $ pm2 restart neetsec
   $ sudo service nginx restart
 ```
+
+# Information and contacts.
+
+***Developers***
+- Jose [jose@deca.eco](mailto:jose@deca.eco)
+- Osmar [osmar@deca.eco](mailto:osmar@deca.eco)
